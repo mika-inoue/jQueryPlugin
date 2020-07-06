@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Sample Site</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div id="container">
+
+    <header>
+      <h1>Sample Page</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">gallery</a></li>
+        <li><a href="#">links</a></li>
+      </ul>
+    </nav>
+
+    <main>
+
+      <section>
+
+        <article>
+          <h3>5/19　第3回</h3>
+          style.cssで色を変える<br>
+          colorが文字色<br>
+          backgroundが背景色
+        </article>
+
+        <article>
+          <h1>PとBR(改行の違い)</h1>
+
+          <h4>brなし</h4>
+          <p>
+            吾輩は猫である
+            吾輩は猫である
+          </p>
+
+          <h4>brあり</h4>
+          <p>
+            吾輩は猫である<br>
+            吾輩は猫である<br>
+          </p>
+        </article>
+
+        <article>
+          <h1>様々なリスト表示</h1>
+
+          <h4>UL：Unordered List</h4>
+          <ul>
+            <li>項目１</li>
+            <li>項目２</li>
+            <li>項目３</li>
+          </ul>
+
+          <h4>OL：Ordered List</h4>
+          <ol>
+            <li>項目１</li>
+            <li>項目２</li>
+            <li>項目３</li>
+          </ol>
+        </article>
+
+        <article>
+          <h1>IFRAMEの事例</h1>
+          <h4>Sample Video</h4>
+          <div class="youtube">
+          <iframe src="https://www.youtube.com/embed/wHtJtH2eITk"
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+          picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </article>
+
+        <article>
+          <h1>IMGの事例</h1>
+          <h1>Sample Image</h1>
+          <img src="images/sample01.jpg" alt="サンプル01">
+          <img src="images/sample02.jpg" alt="サンプル02">
+          <img src="images/sample03.jpg" alt="サンプル03">
+        </article>
+
+        <article>
+          <h1>TABLEの事例</h1>
+          <h4>表組み</h4>
+          <table  border="1" rules="all">
+            <thead>
+              <tr>
+                <th>商品</th>
+                <th>価格</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <td>合計金額</td>
+                <td>250円</td>
+              </tr>
+            </tfoot>
+            <tbody>
+              <tr>
+                <td>鉛筆</td>
+                <td>150円</td>
+              </tr>
+              <tr>
+                <td>消しゴム</td>
+                <td>100円</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article>
+          <h1>FORMの事例</h1>
+          <h4>Sample Form</h4>
+          <form action="http://www.google.com/search" method="get">
+            <label >検索！！: </label>
+            <input type="search" name="q">
+          </form>
+        </article>
+
+        <article>
+          <div id="slideContainer">
+            <ul class="slider">
+              <li><img src="images/01.jpg"></li>
+              <li><img src="images/02.jpg"></li>
+              <li><img src="images/03.jpg"></li>
+            </ul>
+          </div>
+        </article>
+
+      </section>
+
+      <aside>
+        <h1></h1>
+        <ul>
+          <li><a href="https://www.kyusan-u.ac.jp">九州産業大学</a></li>
+          <li><a href="https://www.example.com">EXAMPLE.COM</a></li>
+          <li><a href="https://design.kyusan-u.ac.jp/OpenSquareJP/?Web%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3/2020">
+          授業サイト</a></li>
+        </ul>
+      </aside>
+
+    </main>
+
+    <footer>
+      &copy; http://www.example.com
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
